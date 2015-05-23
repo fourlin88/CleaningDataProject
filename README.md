@@ -1,5 +1,5 @@
 Coursera Getting and Cleaning Data
-+project1
+Project1
 ========================================
 
 The script run_analysis.R does the following.
