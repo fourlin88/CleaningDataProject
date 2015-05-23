@@ -9,7 +9,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 * Open and read README.txt inside "data" directory to find the characteristic of the data. 
 
 * Here is how the prgram works (run_analysis.R)  
- 1. Read train data: 
+ 1. Firstly Read train data: 
     X_train.txt, y_train.txt, subject_train.txt from the "./data/train" folder. 
     
     Read test data:
