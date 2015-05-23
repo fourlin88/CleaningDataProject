@@ -29,19 +29,19 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
     |y_test.txt	         |  test_label	    |  2947 x 1
     |subject_test.txt	 |  test_subject	|  2947 x 1
 
- 2. Concatenate train data and test data to a variable called join_data. 
+ 2. Concatenate train data and test data to a variable called *join_data*. 
  
- 3. Read the features.txt file from the "/data" and pun into a variable called "features" and only extract the measurements on the mean and standard deviation. 
+ 3. Read the features.txt file from the "/data" and pun into a variable called *features* and only extract the measurements on the mean and standard deviation. 
  
  4. Filter join_data to include only mean and std deviation measurements from step 3 above. The result is 10299 x 66 data frame. 
 
- 5. Read the activity_labels.txt file from the "./data"" folder and put into variable called "activity". 
+ 5. Read the activity_labels.txt file from the "./data"" folder and put into variable called *activity*. 
  
  6. Clean the activity names remove underscore and capitalize the letter immediately after the underscore.  
  
  7. Transform the values of *join_label* according to the *activity* data frame. 
  
- 8. Combine the *join_subject*, *join_label* and *join_data* by column to get 10299x68 data frame, *cleaned_data*. Name the first two columns, "subject" and "activity". The "subject" column contains integers that range from 1 to 30; the "activity" column contains 6 kinds of activity names; the last 66 columns contain measurements that range from -1 to 1.  
+ 8. Combine the *join_subject*, *join_label* and *join_data* by column to get 10299x68 data frame, *clean_data*. Name the first two columns, "subject" and "activity". The "subject" column contains integers that range from 1 to 30; the "activity" column contains 6 kinds of activity names; the last 66 columns contain measurements that range from -1 to 1.  
  
  9. Write the *clean_data* out to "clean_data.txt" file in current working directory.  
  
