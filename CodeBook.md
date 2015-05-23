@@ -9,7 +9,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 * Open and read README.txt inside "data" directory to find the characteristic of the data. 
 
 * Here is how the prgram works (run_analysis.R)  
- ** Read train data: 
+ 1. Read train data: 
     X_train.txt, y_train.txt, subject_train.txt from the "./data/train" folder. 
     
     Read test data:
@@ -29,7 +29,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
     |y_test.txt	         |  test_label	    |  2947 x 1
     |subject_test.txt	 |  test_subject	|  2947 x 1
 
- ** Concatenate train data and test data to a variable called join_data. 
+ 2. Concatenate train data and test data to a variable called join_data. 
  
  3. Read the features.txt file from the "/data" and pun into a variable called "features" and only extract the measurements on the mean and standard deviation. 
  
