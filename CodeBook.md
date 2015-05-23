@@ -17,13 +17,14 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
     
     here is the summary of the data file and the variable names including dimension. 
     
-    -|data-file-name	   | variable-name |	dimension
+-|data-file-name	   | variable-name |	dimension
+
     -|X_train.txt	     |  train_data	|    7352 x 561
-    y_train.txt	       train_label	   7352 x 1
-    subject_train.txt	 train_subject	 7352 x 1
-    X_test.txt	        test_data	     2947 x 561
-    y_test.txt	        test_label	    2947 x 1
-    subject_test.txt	  test_subject	  2947 x 1
+    | y_train.txt	     |  train_label	 |  7352 x 1
+    |subject_train.txt	| train_subject	| 7352 x 1
+    |X_test.txt	       | test_data	   |  2947 x 561
+    |y_test.txt	       | test_label	   | 2947 x 1
+    |subject_test.txt	  | test_subject	|  2947 x 1
 
  2. Concatenate train data and test data to a variable called join_data. 
  
