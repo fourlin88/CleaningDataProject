@@ -17,8 +17,6 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
     
     Here is the summary of the data file and the variable names including dimension for this step. 
     
-    
--
     data-file-name      |variable-name   | dimension
 -------------------------|----------------|----------
     X_train.txt         |  train_data      |  7352 x 561
