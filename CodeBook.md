@@ -28,7 +28,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
  2. Concatenate train data and test data to a variable called *join_data*. 
  
- 3. Read the features.txt file from the "/data" and pun into a variable called *features* and only extract the measurements on the mean and standard deviation. 
+ 3. Read the features.txt file from the "/data" and put into a variable called *features* and only extract the measurements on the mean and standard deviation. 
  
  4. Filter join_data to include only mean and std deviation measurements from step 3 above. The result is 10299 x 66 data frame. 
 
